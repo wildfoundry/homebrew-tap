@@ -1,0 +1,10 @@
+# Default ownership for all repository content.
+* @barfle
+
+# Tap package definitions consumed by users.
+Formula/* @barfle
+
+# CI/release automation and repository policy-as-code.
+.github/workflows/* @barfle
+.github/ruleset-main.json @barfle
+.github/BRANCH_PROTECTION_RULESETS.md @barfle

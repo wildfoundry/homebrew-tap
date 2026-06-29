@@ -17,6 +17,16 @@ This repository uses one GitHub branch protection ruleset.
 - **Branches (e.g. main)**: The **deletion** rule in this ruleset protects the targeted branch. Only users with bypass permission (e.g. repo admins) can delete `main`.
 - **Whole repository**: Branch protection does **not** protect against deleting the entire repo. Limit organization/repository deletion permissions and keep repo admin access narrow.
 
+## Internal control requirements
+
+- Keep repository **write/admin permissions restricted to internal staff only** (org teams or explicitly approved maintainers).
+- Public contributors may open PRs from forks, but must not be granted direct push/merge rights.
+- Use `.github/CODEOWNERS` to clearly designate internal ownership of sensitive paths (`Formula/*`, workflow files, and policy files).
+- If publish or packaging workflows are introduced later, require they:
+  - run only from protected branches,
+  - use least-privilege `permissions`,
+  - and deploy through protected environments with internal approvers.
+
 ## Optional: apply via API
 
 From the repo root, with `gh` authenticated:
