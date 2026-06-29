@@ -3,7 +3,7 @@
 Install Dataplicity CLI:
 
 ```bash
-brew tap wildfoundry/tap
+brew tap wildfoundry/homebrew-tap
 brew install dataplicity-cli
 dataplicity --help
 ```
