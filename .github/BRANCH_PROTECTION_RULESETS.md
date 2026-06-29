@@ -6,11 +6,11 @@ This repository uses one GitHub branch protection ruleset.
 
 1. **Default branch (main)**  
    - Target: branch name `main`.  
-   - Require a pull request with **1 approval**, stale review dismissal, and resolved review threads.  
+   - Require a pull request, stale review dismissal, and resolved review threads (self-approval allowed; no mandatory external approval).  
    - Require status checks: **Analyze (ruby)**.  
    - Require linear history.  
    - Block force pushes and branch deletion.  
-   - Bypass: repo admins only (default).
+   - Bypass: none configured in ruleset.
 
 ## Branch vs repo deletion
 
@@ -30,10 +30,10 @@ gh api "repos/${REPO}/rulesets" -X POST -f name="Protect main" \
   -f enforcement=active \
   -F 'conditions[ref_name][include]=refs/heads/main' \
   -f 'rules[0][type]=pull_request' \
-  -F 'rules[0][parameters][required_approving_review_count]=1' \
+  -F 'rules[0][parameters][required_approving_review_count]=0' \
   -F 'rules[0][parameters][dismiss_stale_reviews_on_push]=true' \
   -F 'rules[0][parameters][require_code_owner_review]=false' \
-  -F 'rules[0][parameters][require_last_push_approval]=true' \
+  -F 'rules[0][parameters][require_last_push_approval]=false' \
   -F 'rules[0][parameters][required_review_thread_resolution]=true' \
   -f 'rules[1][type]=required_status_checks' \
   -F 'rules[1][parameters][strict_required_status_checks_policy]=true' \
