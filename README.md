@@ -1,15 +1,12 @@
 # Wildfoundry Homebrew Tap
 
-Add the tap:
-
-```bash
-brew tap wildfoundry/tap
-```
-
 Install Dataplicity CLI:
 
 ```bash
-brew install dataplicity-cli
+brew tap wildfoundry/tap
+brew install wildfoundry/tap/dataplicity-cli
 dataplicity --help
 ```
+
+Source repository: https://github.com/wildfoundry/dataplicity-cli
 
