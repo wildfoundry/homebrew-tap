@@ -11,11 +11,11 @@ class DataplicityLens < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/wildfoundry/homebrew-tap/releases/download/dataplicity-lens-v0.3.0/dataplicity-lens-v0.3.0-aarch64-apple-darwin.tar.gz"
+      url "https://github.com/wildfoundry/dataplicity-lens/releases/download/v0.3.0/dataplicity-lens-v0.3.0-aarch64-apple-darwin.tar.gz"
       sha256 "1f1d801536eac69facd308d1a012209fd3f644d8ec185f88d1ec96fe9fa05602"
     end
     on_intel do
-      url "https://github.com/wildfoundry/homebrew-tap/releases/download/dataplicity-lens-v0.3.0/dataplicity-lens-v0.3.0-x86_64-apple-darwin.tar.gz"
+      url "https://github.com/wildfoundry/dataplicity-lens/releases/download/v0.3.0/dataplicity-lens-v0.3.0-x86_64-apple-darwin.tar.gz"
       sha256 "a61467d1aa801b3f6e9b85e5dafc76a4dc5ac40c0edc4a7483b912aa4b4d0a3a"
     end
   end
