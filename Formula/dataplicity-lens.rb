@@ -5,18 +5,18 @@
 class DataplicityLens < Formula
   desc "System operations toolkit for Linux and macOS"
   homepage "https://lens.dataplicity.com/"
-  version "0.3.0"
+  version "0.3.5"
   license "Apache-2.0"
   depends_on :macos
 
   on_macos do
     on_arm do
-      url "https://github.com/wildfoundry/dataplicity-lens/releases/download/v0.3.0/dataplicity-lens-v0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "1f1d801536eac69facd308d1a012209fd3f644d8ec185f88d1ec96fe9fa05602"
+      url "https://github.com/wildfoundry/dataplicity-lens/releases/download/v0.3.5/dataplicity-lens-v0.3.5-aarch64-apple-darwin.tar.gz"
+      sha256 "cfe70ba845b97d217439f25315191467026b026261e4fc0fe8b67901baf109fe"
     end
     on_intel do
-      url "https://github.com/wildfoundry/dataplicity-lens/releases/download/v0.3.0/dataplicity-lens-v0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "a61467d1aa801b3f6e9b85e5dafc76a4dc5ac40c0edc4a7483b912aa4b4d0a3a"
+      url "https://github.com/wildfoundry/dataplicity-lens/releases/download/v0.3.5/dataplicity-lens-v0.3.5-x86_64-apple-darwin.tar.gz"
+      sha256 "1c1b8976e921a10b753351b5160c3efeb112301cd09781a7ebfbfcbdc62180a8"
     end
   end
 
