@@ -25,6 +25,19 @@ lens --version
 Source: https://github.com/wildfoundry/dataplicity-lens  
 Docs: https://lens.dataplicity.com/
 
+## Dataplicity Remote Desktop
+
+Private release assets. Set `HOMEBREW_GITHUB_API_TOKEN` (GitHub PAT with read access to `wildfoundry/dataplicity-remote-desktop`) before install.
+
+```bash
+brew tap wildfoundry/tap
+brew trust --formula wildfoundry/tap/dataplicity-remote-desktop
+brew install wildfoundry/tap/dataplicity-remote-desktop
+dataplicity-rd --help
+```
+
+Source: https://github.com/wildfoundry/dataplicity-remote-desktop
+
 ## Contribution and release safety
 
 - External contributors are welcome to open pull requests.
