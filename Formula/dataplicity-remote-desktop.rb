@@ -1,10 +1,9 @@
 class DataplicityRemoteDesktop < Formula
   desc "Dataplicity remote desktop host (internal)"
   homepage "https://github.com/wildfoundry/dataplicity-remote-desktop"
-  # Placeholder until the first release; update-homebrew-tap rewrites url/sha256/version.
-  url "https://github.com/wildfoundry/dataplicity-remote-desktop/releases/download/v0.1.0/dataplicity-remote-desktop-0.1.0-macos-universal2.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
-  version "0.1.0"
+  url "https://github.com/wildfoundry/dataplicity-remote-desktop/releases/download/v0.1.3/dataplicity-remote-desktop-0.1.3-macos-universal2.tar.gz"
+  sha256 "066d7344a30c5c97f38dfa28acc9305fc7e05b530834f5a32acb57eb67db45ac"
+  version "0.1.3"
   license :cannot_represent
 
   def install
