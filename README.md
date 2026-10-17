@@ -27,9 +27,12 @@ Docs: https://lens.dataplicity.com/
 
 ## Dataplicity Remote Desktop
 
-Private release assets. Set `HOMEBREW_GITHUB_API_TOKEN` (GitHub PAT with read access to `wildfoundry/dataplicity-remote-desktop`) before install.
+Private release assets (unlike the public CLI). Export a GitHub PAT with read
+access to `wildfoundry/dataplicity-remote-desktop` before install — Homebrew
+uses the Releases API via `GitHubPrivateRepositoryReleaseDownloadStrategy`.
 
 ```bash
+export HOMEBREW_GITHUB_API_TOKEN=<pat>
 brew tap wildfoundry/tap
 brew trust --formula wildfoundry/tap/dataplicity-remote-desktop
 brew install wildfoundry/tap/dataplicity-remote-desktop
