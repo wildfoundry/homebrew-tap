@@ -6,10 +6,10 @@ require_relative "../lib/private_release_download_strategy"
 class DataplicityRemoteDesktop < Formula
   desc "Dataplicity remote desktop host (internal)"
   homepage "https://github.com/wildfoundry/dataplicity-remote-desktop"
-  url "https://github.com/wildfoundry/dataplicity-remote-desktop/releases/download/v0.1.3/dataplicity-remote-desktop-0.1.3-macos-universal2.tar.gz",
+  url "https://github.com/wildfoundry/dataplicity-remote-desktop/releases/download/v0.1.6/dataplicity-remote-desktop-0.1.6-macos-universal2.tar.gz",
       using: GitHubPrivateRepositoryReleaseDownloadStrategy
-  sha256 "066d7344a30c5c97f38dfa28acc9305fc7e05b530834f5a32acb57eb67db45ac"
-  version "0.1.3"
+  sha256 "003801be67c4fde87a17df5cbaba94e098754f08dc4508c0ec6ee9b04851e6fe"
+  version "0.1.6"
   license :cannot_represent
 
   def install
