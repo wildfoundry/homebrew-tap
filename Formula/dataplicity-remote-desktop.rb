@@ -4,9 +4,9 @@
 class DataplicityRemoteDesktop < Formula
   desc "Dataplicity remote desktop host"
   homepage "https://github.com/wildfoundry/dataplicity-remote-desktop-releases"
-  url "https://github.com/wildfoundry/dataplicity-remote-desktop-releases/releases/download/v0.1.15/dataplicity-remote-desktop-0.1.15-macos-universal2.tar.gz"
-  sha256 "572b80855e91786cfd208f0e12de96da932df481b35bf4840dc70252af390cf7"
-  version "0.1.15"
+  url "https://github.com/wildfoundry/dataplicity-remote-desktop-releases/releases/download/v0.1.16/dataplicity-remote-desktop-0.1.16-macos-universal2.tar.gz"
+  sha256 "ee49b35cb437277c72bb90b1f84531413feea3e1b773ce25ffc91e46dba2b2f4"
+  version "0.1.16"
   license :cannot_represent
 
   def install
