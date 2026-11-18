@@ -1,9 +1,9 @@
 class DataplicityCli < Formula
   desc "Dataplicity CLI (OEM/developer workflows)"
   homepage "https://github.com/wildfoundry/dataplicity-cli"
-  url "https://github.com/wildfoundry/dataplicity-cli/releases/download/v0.1.6/dataplicity-cli-0.1.6-macos-universal2.tar.gz"
-  sha256 "5c32ef7fd97572b7b546035422f2b56bfd5cf2444a79dce72248ac64df97209e"
-  version "0.1.6"
+  url "https://github.com/wildfoundry/dataplicity-cli/releases/download/v0.2.1/dataplicity-cli-0.2.1-macos-universal2.tar.gz"
+  sha256 "aa14ee1c07ac6609e3ee90d64554a38507c55c9cfd14fefeef0ae6d362d01e29"
+  version "0.2.1"
   license "BSD-3-Clause"
 
   def install
